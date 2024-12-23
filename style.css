@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+header h2{
+    color: #697c8e;
+}
+
+.hero{
+    
+    background-color:rgb(350, 250, 200);
+    width: 92%;
+    display: flex;
+    margin: auto;
+}
+.hero img {
+    margin-right: 24px;
+}
+.hero div{
+    padding: 30px;
+    font-size: 5rem;
+    color: gray;
+}
+nov {
+    height: 80px;
+    width: 400px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+ul li a{
+    color: #dc757d;
+}
+ul li {
+    padding: 10px;
+
+}
+
+ul li:hover{
+    background-color: #fdf6ed;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.drinks {
+    background-color: rgb(254, 254, 254);
+    margin-top: 80px;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    
+}
+.boxes {
+ height: 380px;
+ width: 95%;
+ margin: auto;
+ padding: 20px;
+ display: flex;
+}
+.box{
+    height: 380px;
+    min-width: 400px;
+    margin: 20px;
+    border: 9px solid rgb(253, 237, 237);
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+#Foods {
+    background-color: rgb(254, 254, 254);
+    margin-top: 190px;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+#boxes {
+    height: 380px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+}
+
+#title{
+    text-align: center;
+    padding: auto;
+}
+#box{
+    height: 380px;
+    min-width: 400px;
+    margin: 20px;
+    border: 10px solid rgb(253, 237, 237);
+    border-radius: 10px;
+}
+
+
+.footer{
+    background-color: #697c8e;
+    height:160px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:290px;
+}
+
+.footer a{
+    color:white;
+}
+
+.sub-footer{
+    background-color: lightblue;
+    height: 50px;
+   text-align: center;
+   padding-top: 20px;
+}

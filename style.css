@@ -22,7 +22,7 @@ header h2{
 
 .hero{
     
-    background-color:rgb(350, 250, 200);
+    background-color:red
     width: 92%;
     display: flex;
     margin: auto;
